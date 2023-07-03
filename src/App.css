@@ -23,27 +23,35 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
 button,
 span,
+h4,
 p,
 li {
   cursor: pointer;
+  transition: 0.4s all;
 }
 
 span:hover,
-p:hover,
-a:hover {
+a:hover,
+h4:hover,
+h5:hover {
   color: var(--lime-green);
 }
 
 span,
+small,
 p,
 li {
   color: var(--grayish-blue);
 }
 
-h4:hover,
-h5:hover {
-  color: var(--lime-green);
+span {
+  font-weight: 300;
 }

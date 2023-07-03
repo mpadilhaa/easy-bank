@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import LOGO from "../../assets/logo.svg";
+import LOGO from "../../assets/logo-footer.svg";
 import FACEBOOK from "../../assets/icon-facebook.svg";
 import YOUTUBE from "../../assets/icon-youtube.svg";
 import TWITTER from "../../assets/icon-twitter.svg";
@@ -38,8 +38,8 @@ const data = [
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-content">
+    <div className="footer-content">
+      <div className="content">
         <div className="logo-and-socials">
           <img src={LOGO} alt="logo da empresa" />
           <div className="socials">
@@ -47,23 +47,23 @@ const Footer = () => {
               <img key={item.id} src={item.img} alt={item.alt} />
             ))}
           </div>
-          <div className="links">
-            <div className="col-1">
-              <span>About Us</span>
-              <span>Contact</span>
-              <span>Blog</span>
-            </div>
-            <div className="col-2">
-              <span>Careers</span>
-              <span>Support</span>
-              <span>Privacy Policy</span>
-            </div>
+        </div>
+        <div className="links">
+          <div className="col-1">
+            <span>About Us</span>
+            <span>Contact</span>
+            <span>Blog</span>
+          </div>
+          <div className="col-2">
+            <span>Careers</span>
+            <span>Support</span>
+            <span>Privacy Policy</span>
           </div>
         </div>
-        <div className="btn-footer">
-          <Button>Request Invite</Button>
-          <p> © Easybank. All Rights Reserved</p>
-        </div>
+      </div>
+      <div className="btn-footer">
+        <Button>Request Invite</Button>
+        <small> © Easybank. All Rights Reserved</small>
       </div>
     </div>
   );

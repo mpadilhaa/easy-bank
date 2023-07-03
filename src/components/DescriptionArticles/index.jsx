@@ -6,7 +6,7 @@ const DescriptionArticles = ({ title, children }) => {
   return (
     <div className="description-content">
       <h2>{title}</h2>
-      <p>{children}</p>
+      {children && <p>{children}</p>}
     </div>
   );
 };

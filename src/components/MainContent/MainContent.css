@@ -1,14 +1,14 @@
 .main-content {
   width: 100%;
   display: flex;
-  height: 830px;
+  height: 840px;
   overflow: hidden;
   position: relative;
 }
 
 .text-content {
   width: 50%;
-  margin: 230px 0 0 180px;
+  margin: 230px 0 0 140px;
 }
 .text-content h1 {
   font-weight: 400;
@@ -32,7 +32,7 @@
 
 .bg-mockup {
   position: absolute;
-  top: -70px;
+  top: -60px;
   right: -130px;
   z-index: 2;
 }

@@ -36,7 +36,7 @@ const data = [
 
 const LatestArticles = () => {
   return (
-    <div>
+    <div className="latest-content">
       <DescriptionArticles title={"Latest Articles"} />
       <div className="latest-cards">
         {data.map((item) => (

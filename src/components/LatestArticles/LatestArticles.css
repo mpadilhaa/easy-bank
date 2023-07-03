@@ -1,0 +1,14 @@
+.latest-content {
+  position: relative;
+  z-index: 1;
+  padding: 100px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.latest-cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+.advantage-content {
+  position: relative;
+  z-index: 1;
+  margin-top: -120px;
+  background-color: var(--light-grayish-blue);
+  padding: 100px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.cards {
+  display: flex;
+  gap: 41px;
+  margin-top: 10px;
+}

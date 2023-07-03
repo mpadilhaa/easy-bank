@@ -1,0 +1,45 @@
+.footer-content {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 140px;
+}
+
+.content {
+  display: flex;
+  gap: 120px;
+}
+
+.socials {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+}
+
+.links {
+  display: flex;
+  gap: 120px;
+}
+
+.links span {
+  color: var(--white);
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-footer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}
+
+span:hover {
+  transition: 0.4s all;
+  color: var(--lime-green);
+}
